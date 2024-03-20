@@ -1,0 +1,9 @@
+
+/* CourseCard.css */
+.custom-card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 7px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+}
+
+.custom-card:hover {
+    box-shadow: 0 8px 16px rgba(148, 164, 220, 0.664);
+}

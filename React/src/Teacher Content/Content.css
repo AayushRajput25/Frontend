@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.sidebar a {
+    color: #fff;
+}
+
+.sidebar-link {
+    display: block;
+    padding: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-link:hover {
+    background-color: #495057;
+    text-decoration: none;
+}
+
+.delete-button {
+    margin-top: 8px;
+}
+
+/* Content Styles */
+.content-container {
+    margin-top: 20px;
+}
+
+/* Video Player Styles */
+.player-container {
+    margin-top: 20px;
+}
+
+/* Navigation and Logout Buttons Styles */
+.button-container {
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+.footer-container {
+    margin-top: 20px;
+}

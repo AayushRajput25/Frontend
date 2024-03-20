@@ -1,0 +1,63 @@
+.container-card {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f8f9fab1;
+    /* Light gray background */
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.text-center-options {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.options-header {
+    margin-bottom: 1rem;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.options-link {
+    display: block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.options-link:hover {
+    text-decoration: underline;
+}
+
+.btn-signin {
+    width: 100%;
+}
+
+/* Responsive margin for smaller screens */
+@media (max-width: 576px) {
+    .text-center-options {
+        margin: 0;
+        /* Remove left and right margins */
+    }
+}

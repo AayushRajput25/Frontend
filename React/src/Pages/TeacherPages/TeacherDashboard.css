@@ -1,0 +1,199 @@
+/* TeacherDashboard.css */
+
+/* Add a background color to the whole page */
+body {
+  background-color: #f4f4f4;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px; /* Adjusted top margin for better alignment */
+}
+
+.profile-info {
+  width: 70%;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(69, 64, 132, 0.2); /* Increased shadow for a subtle effect */
+  margin-top: 35px;
+  border-radius: 10px; /* Added border-radius for a rounded look */
+  background-image: linear-gradient(120deg, #85d0fe 0%, #faf3fc 100%);
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 50px;
+}
+
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+/* Improved button styles */
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.action-buttons {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Improved action-div styles */
+.action-div {
+  width: 48%;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #072192;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(69, 64, 132, 0.2);
+  line-height: 1.5;
+  transition: background-color 0.3s;
+}
+
+.action-div:hover {
+  background-color: #5438cf;
+}
+
+/* Styling for delete-prompt */
+.delete-prompt {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff6f6;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(225, 43, 43, 0.2);
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+.delete-prompt-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.delete-prompt button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Improved button styles for delete-prompt */
+.delete-prompt button:first-child {
+  background-color: #ccc;
+}
+
+.delete-prompt button:last-child {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+/* Added a subtle shadow to the profile photo for depth */
+.profile-photo {
+  box-shadow: 0 0 10px rgba(69, 64, 132, 0.2);
+}
+
+/* Added a background color to the whole page */
+body {
+  background-color: #f4f4f4;
+}
+
+/* Additional styles for a more professional look */
+.profile-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.profile-info-text {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* Improved button styles */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+}
+
+.primary-bg {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.danger-bg {
+  background-color: #e74c3c;
+  color: #fff;
+}
+    

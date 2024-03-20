@@ -1,0 +1,137 @@
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+
+const purl = "./Pictures/nModi.jpg";
+
+function Contact() {
+  return (
+    <div>
+        <Container>
+      <h1>Contact</h1>
+      <Row>
+        <Col xs={12} md={6}>
+          <div>
+            <label>Email:</label>
+            <input type="email" className="form-control" />
+          </div>
+          <div>
+            <label>LinkedIn:</label>
+            <input type="text" className="form-control" />
+          </div>
+          <div>
+            <label>GitHub:</label>
+            <input type="text" className="form-control" />
+          </div>
+        </Col>
+        <Col xs={12} md={6}>
+          <Row className="align-items-end">
+            <Col xs={6} md={12}>
+              <div className="text-md-right mb-3 mb-md-0">
+                <label>Photo:</label>
+              </div>
+            </Col>
+            <Col xs={6} md={12}>
+            <img src={purl} alt="Photo" className="img-fluid" style={{ width: '100px', height: '100px' }} />
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </Container>
+    <Container>
+      <h1>Contact</h1>
+      <Row>
+        <Col xs={12} md={6}>
+          <div>
+            <label>Email:</label>
+            <input type="email" className="form-control" />
+          </div>
+          <div>
+            <label>LinkedIn:</label>
+            <input type="text" className="form-control" />
+          </div>
+          <div>
+            <label>GitHub:</label>
+            <input type="text" className="form-control" />
+          </div>
+        </Col>
+        <Col xs={12} md={6}>
+          <Row className="align-items-end">
+            <Col xs={6} md={12}>
+              <div className="text-md-right mb-3 mb-md-0">
+                <label>Photo:</label>
+              </div>
+            </Col>
+            <Col xs={6} md={12}>
+            <img src={purl} alt="Photo" className="img-fluid" style={{ width: '100px', height: '100px' }} />
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </Container>
+    <Container>
+      <h1>Contact</h1>
+      <Row>
+        <Col xs={12} md={6}>
+          <div>
+            <label>Email:</label>
+            <input type="email" className="form-control" />
+          </div>
+          <div>
+            <label>LinkedIn:</label>
+            <input type="text" className="form-control" />
+          </div>
+          <div>
+            <label>GitHub:</label>
+            <input type="text" className="form-control" />
+          </div>
+        </Col>
+        <Col xs={12} md={6}>
+          <Row className="align-items-end">
+            <Col xs={6} md={12}>
+              <div className="text-md-right mb-3 mb-md-0">
+                <label>Photo:</label>
+              </div>
+            </Col>
+            <Col xs={6} md={12}>
+            <img src={purl} alt="Photo" className="img-fluid" style={{ width: '100px', height: '100px' }} />
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </Container>
+    <Container>
+      <h1>Contact</h1>
+      <Row>
+        <Col xs={12} md={6}>
+          <div>
+            <label>Email:</label>
+            <input type="email" className="form-control" />
+          </div>
+          <div>
+            <label>LinkedIn:</label>
+            <input type="text" className="form-control" />
+          </div>
+          <div>
+            <label>GitHub:</label>
+            <input type="text" className="form-control" />
+          </div>
+        </Col>
+        <Col xs={12} md={6}>
+          <Row className="align-items-end">
+            <Col xs={6} md={12}>
+              <div className="text-md-right mb-3 mb-md-0">
+                <label>Photo:</label>
+              </div>
+            </Col>
+            <Col xs={6} md={12}>
+            <img src={purl} alt="Photo" className="img-fluid" style={{ width: '100px', height: '100px' }} />
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </Container>
+    </div>
+  );
+}
+
+export default Contact;
